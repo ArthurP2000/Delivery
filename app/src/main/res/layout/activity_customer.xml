@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Customer">
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="300dp"
+        android:layout_height="60sp"
+        android:layout_marginTop="9dp"
+        android:background="@color/colorPrimary"
+        android:drawableStart="@drawable/ic_phone"
+        android:drawablePadding="10sp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="Phone"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/fullName"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="60sp"
+        android:layout_marginTop="9dp"
+        android:background="@color/colorPrimary"
+        android:drawableStart="@drawable/ic_key"
+        android:drawablePadding="10sp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:layout_below="@id/phoneNumber"
+        android:paddingBottom="5dp"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="300dp"
+        android:layout_height="60sp"
+        android:layout_marginTop="56dp"
+        android:background="@color/colorPrimary"
+        android:drawableStart="@drawable/ic_person"
+        android:drawablePadding="10sp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/registerBtnDel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/blue_fill__rounded_color"
+        android:text="Register as Customer"
+        android:textSize="30dp"
+        android:textAllCaps="false"
+        android:layout_below="@id/password"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/blue_fill__rounded_color"
+        android:text="Customer Login"
+        android:textSize="30dp"
+        android:textAllCaps="false"
+        android:layout_below="@id/registerBtnDel"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="229dp"
+        android:layout_height="164dp"
+        android:paddingTop="20dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/userid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"/>
+
+</RelativeLayout>

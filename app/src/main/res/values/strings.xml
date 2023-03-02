@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Delivery App</string>
+    <string name="qr_code">qr_code</string>
+    <string name="enter_your_info">Enter your info</string>
+    <string name="generate_qr_code">Generate QR Code</string>
+    <string name="parcely">Delivery App</string>
+    <string name="display_parcel">Display Product</string>
+    <string name="bg">bg</string>
+    <string name="register_form">Registration Form</string>
+</resources>
